@@ -1,5 +1,9 @@
 /* Typography */
 
+body {
+	margin: unset;
+}
+
 html {
 	font-family: 'Roboto', sans-serif;
 }
@@ -72,7 +76,7 @@ main > .tagline {
 }
 
 .sticky-image-wrapper{
-	position: fixed;
+	position: inherit;
 	bottom: 0;
 	width: 100%;
 }
@@ -81,6 +85,6 @@ main > .tagline {
 	display: table;
 	position: relative;
 	margin: auto;
-	max-width: 30rem;
+	max-width: 100%;
 	z-index: 0;
 }
