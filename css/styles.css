@@ -30,6 +30,7 @@ html {
 
 .icons-social i {
 	font-size: 3em;
+	z-index: 1;
 }
 
 /* Custom Styles */
@@ -68,4 +69,18 @@ main > .tagline {
 	margin-left: 0.675rem;;
 	width: 2.65rem;
 	height: 2.65rem;
+}
+
+.sticky-image-wrapper{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.sticky-image-wrapper img{
+	display: table;
+	position: relative;
+	margin: auto;
+	max-width: 30rem;
+	z-index: 0;
 }
