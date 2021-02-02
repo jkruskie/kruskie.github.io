@@ -76,15 +76,19 @@ main > .tagline {
 }
 
 .sticky-image-wrapper{
-	position: inherit;
-	bottom: 0;
-	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
 }
 
 .sticky-image-wrapper img{
 	display: table;
 	position: relative;
 	margin: auto;
-	max-width: 100%;
+	max-width: 50vh;
 	z-index: 0;
+	/* flex-shrink: 0; */
+    /* min-width: 100%; */
+    /* min-height: 100% */
 }
